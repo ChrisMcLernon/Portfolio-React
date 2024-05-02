@@ -16,8 +16,29 @@
     {
         "title": "Portfolio Website using React + Vite",
         "imgsrc": "../../public/img/Portfolio_3.png",
-        "desc": "",
+        "desc": "A modern web application showcasing a developer's portfolio. Built with React and Vite, it offers smooth navigation, interactivity, and responsiveness across different devices.",
         "skills": ["React", "Vite", "Javascript", "CSS", "HTML"],
-        "source": ""
+        "source": "https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio"
+    },
+    {
+        "title": "3D Rendering and Texturing using OpenGL",
+        "imgsrc": "../../public/img/Portfolio_4.png",
+        "desc": "A project showcasing rendering and texturing techniques implemented with C++ and OpenGL. It demonstrates skills in 3D rendering and texturing, providing a foundation for understanding graphics programming.",
+        "skills": ["C++", "OpenGL", "3D Rendering", "Texturing"],
+        "source": "https://github.com/ChrisMcLernon/CS-330-Project-1"
+    },
+    {
+        "title": "System Architecture and Micro-Controllers",
+        "imgsrc": "../../public/img/Portfolio_5.png",
+        "desc": "A project focused on system architecture and micro-controller development, utilizing skills in C, C++, and TI technologies. It demonstrates expertise in designing and implementing efficient system architectures with micro-controllers",
+        "skills": ["System Architecture", "Micro-Controllers", "C", "C++", "TI"],
+        "source": "https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers"
+    },
+    {
+        "title": "AI Treasure Hunt Game",
+        "imgsrc": "../../public/img/Portfolio_6.png",
+        "desc": "A project developed using Python, Keras, TensorFlow, OpenAI Gym, and deep learning techniques. It showcases the implementation of artificial intelligence in gaming scenarios, demonstrating skills in Python programming, deep learning, and reinforcement learning.",
+        "skills": ["Python", "Keras", "TensorFlow", "OpenAi Gym", "Deep Learning"],
+        "source": "https://github.com/ChrisMcLernon/AI-and-Emerging-Trends/tree/main"
     }
 ]

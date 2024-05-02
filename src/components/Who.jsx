@@ -94,7 +94,7 @@ const List = styled.ul`
   `}
 `
 const ListItem = styled.li`
-
+  padding-top: 10px;
 `
 const A = styled.a`
   font-size: 24px;
