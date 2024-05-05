@@ -8,6 +8,7 @@ const Section = styled.section`
   height: 100vh;
   font-size: 18px;
   scroll-snap-align: center;
+  z-index: 1;
 `
 
 const Container = styled.div`
@@ -26,21 +27,27 @@ const Group = styled.div`
   align-content: center;
   background: ${props => props.theme.transparent};
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
+  height: 55%;
   width: 90%;
   padding: 25px;
   border-radius: 10px;
   z-index: 1;
+
+  ${media.hmd`
+    height: unset;
+  `}
 `
 
 const Title = styled.h1`
   display: flex;
   white-space: nowrap;
+  gap: 10px;
   justify-content: center;
-  font-size: 44px;
-  color: ${props => props.theme.color1};
-  text-shadow: 2px 2px 10px ${props => props.theme.color4};
+  font-size: 50px;
+  color: ${props => props.theme.color4};
+  text-shadow: 2px 2px 10px ${props => props.theme.color1};
 
-  ${media.hsm`
+  ${media.hmd`
     font-size: 30px;
   `}
   ${media.wmd`
@@ -51,7 +58,7 @@ const Sub = styled.h2`
   display: flex;
   white-space: nowrap;
   justify-content: center;
-  font-size: 20px;
+  font-size: 30px;
   color: ${props => props.theme.color2};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
 
@@ -63,8 +70,8 @@ const Sub = styled.h2`
   `}
 `
 const Desc = styled.p`
-  font-size: 24px;
-  padding-bottom: 15px;
+  font-size: 27px;
+  padding: 15px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
 
@@ -126,7 +133,7 @@ const Column_R = styled.div`
 
 const Who = () => {
     return (
-      <Section>
+      <Section id="about">
         <Container>
           <Group>
               <Title>Bio</Title>
@@ -146,30 +153,30 @@ const Who = () => {
             <List>
               <Column_L>
                 <ListItem>
-                  <A>MEAN Stack</A>
+                  <A href="https://github.com/ChrisMcLernon/Full-Stack-Full_Development/tree/Module7" target="blank">MEAN Stack</A>
                 </ListItem>
                 <ListItem>
-                  <A>React/HTML/CSS</A>
+                  <A href="https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio" target="blank">React/HTML/CSS</A>
                 </ListItem>
                 <ListItem>
-                  <A>Micro-Controllers (Raspberry Pi, Ti)</A>
+                  <A href="https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers" target="blank">Micro-Controllers (Raspberry Pi, Ti)</A>
                 </ListItem>
                 <ListItem>
-                  <A>Server / Pc managment</A>
+                  <A href="https://github.com/ChrisMcLernon/CS-405" target="blank">Server / Pc managment</A>
                 </ListItem>
               </Column_L>
               <Column_R>
               <ListItem>
-                  <A>C/C++</A>
+                  <A href="https://github.com/ChrisMcLernon/CS-330-Project-1" target="blank">C/C++</A>
                 </ListItem>
                 <ListItem>
-                  <A>C#</A>
+                  <A href="https://github.com/ChrisMcLernon/" target="blank">C#</A>
                 </ListItem>
                 <ListItem>
-                  <A>Javascript</A>
+                  <A href="https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio" target="blank">Javascript</A>
                 </ListItem>
                 <ListItem>
-                  <A>Python</A>
+                  <A href="https://github.com/ChrisMcLernon/AI-and-Emerging-Trends/tree/main" target="blank">Python</A>
                 </ListItem>
               </Column_R>
             </List>

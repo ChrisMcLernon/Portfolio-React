@@ -8,6 +8,7 @@ import { media } from "../utils/breakpoints";
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
+  z-index: 1;
 `
 const Container = styled.div`
   width: 75vw;
@@ -105,7 +106,7 @@ const Contact = () => {
 };
 
     return (
-        <Section>
+        <Section id="contact">
           <Container>
             <Group_1>
               <Form ref={ref} onSubmit={handleSubmit}>

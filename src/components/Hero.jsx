@@ -10,6 +10,7 @@ const Section = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 `
 
 const Container = styled.div`
@@ -46,6 +47,7 @@ const Left = styled.div`
 const Title = styled.h1` 
   font-size: 80px;
   color: ${props => props.theme.color1};
+  text-shadow: 2px 2px 10px ${props => props.theme.color4};
   position: relative;
 `
 const WhatWeDo = styled.div` 
@@ -54,9 +56,12 @@ const WhatWeDo = styled.div`
   gap: 10px;
 `
 const Sub = styled.h2`
-  padding-left: 40px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 30px;
   color: ${props => props.theme.color2};
   position: relative;
+  text-shadow: 2px 2px 10px ${props => props.theme.color4};
 `
 const Desc = styled.p`
   font-size: 24px;
@@ -66,17 +71,23 @@ const Desc = styled.p`
   white-space: nowrap;
   letter-spacing: .15em;
   position: relative;
+  text-shadow: 2px 2px 10px ${props => props.theme.color4};
   animation: typing 3s steps(39, end), blink-caret .75s step-end infinite;
   
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { 
+    width: 0;
+  } to { 
+    width: 100%;
+    &:after{
+    }
+  }
 };
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: ${props => props.theme.color2};; }
+  50% { border-color: ${props => props.theme.color2};}
 };
 `
 const Right = styled.div`
@@ -158,7 +169,7 @@ const Hero = () => {
                 <WhatWeDo>
                   <Sub>Software Developer</Sub>
                 </WhatWeDo>
-                <Desc>Passionate about Web Development and AI</Desc>
+                <Desc>Passionate about Web Development and AI.</Desc>
               </Left>
               <Right>
                 <Anim/>
