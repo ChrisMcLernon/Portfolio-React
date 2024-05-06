@@ -10,7 +10,7 @@ const Section = styled.div`
   justify-content: center;
   z-index: 5;
 
-  ${media.wxs`
+  ${media.wmd`
     position: absolute;
   `}
 `

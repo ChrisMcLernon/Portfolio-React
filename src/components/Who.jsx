@@ -37,7 +37,7 @@ const Group = styled.div`
     height: unset;
   `}
 
-  ${media.wxs`
+  ${media.wmd`
     width: 80%;
     padding: 10px;
   `}
@@ -83,7 +83,7 @@ const Desc = styled.p`
   ${media.hsm`
     font-size: 12px;
   `}
-  ${media.wxs`
+  ${media.wmd`
     font-size: 13px;
     padding: 2px;
     text-align: center;
@@ -127,7 +127,7 @@ const A = styled.a`
   ${media.hsm`
     font-size: 12px;
   `}
-  ${media.wxs`
+  ${media.wmd`
     font-size: 15px;
   `}
 `

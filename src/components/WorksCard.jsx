@@ -24,7 +24,7 @@ const Img = styled.img`
   ${media.hlg`
     padding: 20px;
   `}
-  ${media.wxs`
+  ${media.wmd`
     width: 0;
   `}
 `
@@ -35,7 +35,7 @@ const Title = styled.h3`
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   text-align: center;
-  ${media.wxs`
+  ${media.wmd`
     padding: 0px 10px;
   `}
 `
@@ -46,7 +46,7 @@ const Desc = styled.p`
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
 
-  ${media.wxs`
+  ${media.wmd`
     padding: 20px;
 
   `}
@@ -59,7 +59,7 @@ const CardList = styled.ul`
   list-style: none;
   color: ${props => props.theme.color1};
 
-  ${media.wxs`
+  ${media.wmd`
     gap: 3px;
   `}
 `
@@ -68,7 +68,7 @@ const CardListItem = styled.li`
   padding: 10px;
   border-radius: 5px;
 
-  ${media.wxs`
+  ${media.wmd`
     font-size: 11px;
     padding: 5px;
   `}
@@ -80,7 +80,7 @@ const A = styled.a`
   text-decoration: none;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  ${media.wxs`
+  ${media.wmd`
     font-size: 20px;
   `}
 

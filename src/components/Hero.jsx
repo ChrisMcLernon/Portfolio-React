@@ -44,7 +44,7 @@ const Left = styled.div`
     bottom: 5%;
   `}
 
-  ${media.wxs`
+  ${media.wmd`
     gap: unset;
     margin: auto;
   `}
@@ -54,7 +54,7 @@ const Title = styled.h1`
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   position: relative;
-  ${media.wxs`
+  ${media.wmd`
     margin : auto;
     font-size: 32px;
     padding-top: 150px;
@@ -64,7 +64,7 @@ const WhatWeDo = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-  ${media.wxs`
+  ${media.wmd`
     gap: unset;
   `}
 `
@@ -74,7 +74,7 @@ const Sub = styled.h2`
   color: ${props => props.theme.color2};
   position: relative;
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  ${media.wxs`
+  ${media.wmd`
     margin : auto;
     font-size: 22px;
     padding-left: unset;
@@ -91,7 +91,7 @@ const Desc = styled.p`
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   animation: typing 3s steps(39, end), blink-caret .75s step-end infinite;
 
-  ${media.wxs`
+  ${media.wmd`
   font-size: 12px;
     margin: auto;
     gap: unset;
@@ -157,7 +157,7 @@ const Anim = styled.div`
     width: 200px;
     height: 200px;
   `}
-  ${media.wxs`
+  ${media.wmd`
     
   `}
 

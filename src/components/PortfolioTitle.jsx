@@ -14,13 +14,10 @@ const ListItem = styled.li`
   ${media.hmd`
     font-size: 60px;
   `}
-  ${media.wmd`
-    font-size: 60px;
-  `}
   ${media.hsm`
     font-size: 40px;
   `}
-  ${media.wsm`
+  ${media.wmd`
     font-size: 30px;
   `}
 `

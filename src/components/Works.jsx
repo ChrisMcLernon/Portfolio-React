@@ -30,7 +30,7 @@ const Container = styled.div`
   ${media.wlg`
       flex-direction: column;
   `}
-  ${media.wxs`
+  ${media.wmd`
     padding-left: unset;
     margin: unset;
     gap: unset;
@@ -77,7 +77,7 @@ const Group_1 = styled.div`
     justify-content: flex-start;
     text-align: left;
   `}
-  ${media.wxs`
+  ${media.wmd`
     
   `}
 `
@@ -86,7 +86,7 @@ const List = styled.ul`
   display:flex;
   flex-direction: column;
   gap: 50px;
-  ${media.wxs`
+  ${media.wmd`
     gap: 15px;
     padding-top: 35px;
   `}
@@ -101,7 +101,7 @@ const Group_2 = styled.div`
   margin: auto;
   padding-left: 20px;
 
-  ${media.wxs`
+  ${media.wmd`
     flex: 4;
     padding-left: unset;
     margin: unset;

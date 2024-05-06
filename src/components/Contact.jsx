@@ -49,7 +49,7 @@ const Input = styled.input`
   border: none;
   border-radius: 5px;
   background: ${props => props.theme.transparent};
-  ${media.wxs`
+  ${media.wmd`
     width: 55dvw;
   `}
 `
@@ -65,7 +65,7 @@ const TextArea = styled.textarea`
   max-height: 500px;
   min-height: 250px;
 
-  ${media.wxs`
+  ${media.wmd`
   max-width: 40dvw;
   min-width: 55dvw;
   max-height: 35dvh;
