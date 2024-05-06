@@ -140,8 +140,8 @@ const Group_2 = styled.div`
 
 
 const Works = () => {
-  const [state, setState] = useState("");
-  const [activeItem, setActiveItem] = useState(null);
+  const [state, setState] = useState("Web Development");
+  const [activeItem, setActiveItem] = useState("Web Development");
 
   const handleMouseEnter = (item) => {
     setState(item);
