@@ -12,7 +12,6 @@ const Card = styled.div`
   align-items: center;
   background-color: ${props => props.theme.transparent};
   border-radius: 30px;
-  margin: auto;
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
 `
 const Img = styled.img`

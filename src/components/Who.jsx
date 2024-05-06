@@ -27,17 +27,11 @@ const Group = styled.div`
   align-content: center;
   background: ${props => props.theme.transparent};
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
-  height: 65%;
-  width: 90%;
+  height: auto;
+  width: 80%;
   border-radius: 10px;
+  padding: 9px;
   z-index: 1;
-
-  ${media.wmd`
-  height: 45%;
-  `}
-  ${media.hmd`
-  height: 45%;
-  `}
 `
 
 const Title = styled.h1`
@@ -165,7 +159,7 @@ const Who = () => {
                   <A href="https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio" target="blank">React/HTML/CSS</A>
                 </ListItem>
                 <ListItem>
-                  <A href="https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers" target="blank">Micro-Controllers (Raspberry Pi, Ti)</A>
+                  <A href="https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers" target="blank">Micro-Controllers</A>
                 </ListItem>
                 <ListItem>
                   <A href="https://github.com/ChrisMcLernon/CS-405" target="blank">Server / Pc managment</A>

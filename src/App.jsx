@@ -16,11 +16,12 @@ const theme = {
 
 const Container = styled.div`
   height: 100dvh;
+  width: 100dvw;
   scroll-behavior: smooth;
   scroll-snap-align: center;
   scroll-snap-type: y mandatory;
-  -ms-scroll-limit-x-max: 0px;
   overflow-y: auto;
+  overflow-x: hidden;
   scrollbar-width: none;
   background-color: ${props => props.theme.color3};
   background-size: 100dvw 100dvh;
