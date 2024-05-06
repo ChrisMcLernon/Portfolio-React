@@ -20,8 +20,6 @@ const Container = styled.div`
   gap: 50px;
 `
 const Group_1 = styled.div`
-  flex: 1;
-  top: 10px;
   margin: auto;
   display: flex;
   align-items: center;
