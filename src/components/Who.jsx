@@ -27,14 +27,15 @@ const Group = styled.div`
   align-content: center;
   background: ${props => props.theme.transparent};
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
-  height: 30%;
+  height: 50%;
   width: 90%;
   padding: 25px;
   border-radius: 10px;
   z-index: 1;
 
   ${media.wmd`
-    width: 70%;
+    width: 80dvw;
+    height: 45dvh;
     padding: 20px;
     flex: 1;
   `}
