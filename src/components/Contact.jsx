@@ -45,13 +45,10 @@ const Input = styled.input`
   color: ${props => props.theme.color4};
   margin: auto;
   padding: 20px;
-  width: 90%;
+  width: 95%;
   border: none;
   border-radius: 5px;
   background: ${props => props.theme.transparent};
-  ${media.wmd`
-    width: 55dvw;
-  `}
 `
 const TextArea = styled.textarea`
   color: ${props => props.theme.color4};
@@ -60,17 +57,10 @@ const TextArea = styled.textarea`
   border: none;
   border-radius: 5px;
   background: ${props => props.theme.transparent};
-  max-width: 90%;
-  min-width:  90%;
-  max-height: 500px;
-  min-height: 250px;
-
-  ${media.wmd`
-  max-width: 40dvw;
-  min-width: 55dvw;
-  max-height: 35dvh;
-  min-height: 35dvh;
-  `}
+  max-width: 95%;
+  min-width: 95%;
+  max-height: 40dvh;
+  min-height: 40dvh;
 `
 const Button = styled.button`
   color: ${props => props.theme.color5};
