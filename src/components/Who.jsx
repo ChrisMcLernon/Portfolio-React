@@ -14,7 +14,7 @@ const Section = styled.section`
 const Container = styled.div`
   display: grid;
   flex-direction: row;
-  height: 90%;
+  height: 100%;
   scroll-snap-align: center;
 
   ${media.hmd`
@@ -33,6 +33,9 @@ const Group = styled.div`
   z-index: 1;
 
   ${media.wmd`
+  height: 45%;
+  `}
+  ${media.hmd`
   height: 45%;
   `}
 `
@@ -72,7 +75,10 @@ const Desc = styled.p`
   padding: 15px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  
+
+  ${media.hsm`
+    font-size: 12px;
+  `}
   ${media.wmd`
     font-size: 12px;
     padding: 10px;
