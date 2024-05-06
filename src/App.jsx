@@ -17,8 +17,9 @@ const theme = {
 const Container = styled.div`
   height: 100dvh;
   scroll-behavior: smooth;
-  scroll-snap-align: y mandatory;
-  -ms-scroll-limit-x-max: 100dvw;
+  scroll-snap-align: center;
+  scroll-snap-type: y mandatory;
+  -ms-scroll-limit-x-max: 0px;
   overflow-y: auto;
   scrollbar-width: none;
   background-color: ${props => props.theme.color3};
