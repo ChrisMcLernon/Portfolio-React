@@ -32,7 +32,7 @@ const Title = styled.h1`
   margin: auto;
 `
 const Form = styled.form`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
