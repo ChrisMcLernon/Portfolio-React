@@ -49,6 +49,10 @@ const Input = styled.input`
   border: none;
   border-radius: 5px;
   background: ${props => props.theme.transparent};
+
+  ${media.wmd`
+    width: 55dvw;
+  `}
 `
 const TextArea = styled.textarea`
   color: ${props => props.theme.color4};
