@@ -14,14 +14,12 @@ const Section = styled.section`
 const Container = styled.div`
   display: grid;
   flex-direction: row;
+  height: 90%;
   scroll-snap-align: center;
 
   ${media.hmd`
     display: flex;
     flex-direction: column;
-  `}
-  ${media.wmd`
-    height: 75dvh;
   `}
 `
 const Group = styled.div`
