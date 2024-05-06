@@ -17,6 +17,7 @@ const theme = {
 const Container = styled.div`
   height: 100dvh;
   scroll-behavior: smooth;
+  scroll-snap-align: y mandatory;
   -ms-scroll-limit-x-max: 100dvw;
   overflow-y: auto;
   scrollbar-width: none;
