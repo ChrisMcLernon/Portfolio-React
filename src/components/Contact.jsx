@@ -6,7 +6,8 @@ import { media } from "../utils/breakpoints";
 
 
 const Section = styled.div`
-  height: 100vh;
+  height: 100dvh;
+  width: 100dvw;
   scroll-snap-align: center;
   z-index: 1;
 `
