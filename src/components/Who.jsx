@@ -27,23 +27,18 @@ const Group = styled.div`
   align-content: center;
   background: ${props => props.theme.transparent};
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
-  height: 50%;
+  height: 65%;
   width: 90%;
-  padding: 25px;
   border-radius: 10px;
   z-index: 1;
 
   ${media.wmd`
-    width: 80dvw;
-    height: 45dvh;
-    padding: 20px;
-    flex: 1;
+  height: 45%;
   `}
 `
 
 const Title = styled.h1`
   display: flex;
-  gap: 10px;
   justify-content: center;
   text-align: center;
   font-size: 50px;
@@ -82,8 +77,8 @@ const Desc = styled.p`
     font-size: 12px;
   `}
   ${media.wmd`
-    font-size: 10px;
-    padding: 2px;
+    font-size: 13px;
+    padding: 10px;
     text-align: center;
   `}
 `
@@ -123,7 +118,7 @@ const A = styled.a`
   };
 
   ${media.wmd`
-    font-size: 12px;
+    font-size: 15px;
   `}
 `
 const Column_L = styled.div`

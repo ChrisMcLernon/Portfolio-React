@@ -24,7 +24,6 @@ const Section = styled.div`
 
 const Container = styled.div`
   width: 90%;
-  height: 90%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -68,19 +67,19 @@ const Blur_2 = styled.div`
   pointer-events: none;
 `
 const Group_1 = styled.div`
-  flex: 2;
+  flex: 3;
   justify-content: center;
   display: flex;
   align-items: center;
   z-index: 1;
 
   ${media.hlg`
-    flex: 3;
     justify-content: flex-start;
     text-align: left;
   `}
   ${media.wmd`
-    
+    top: 5px;
+    flex: 1
   `}
 `
 const List = styled.ul`
@@ -94,7 +93,7 @@ const List = styled.ul`
   `}
 `
 const Group_2 = styled.div`
-  flex: 2;
+  flex: 3;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -104,7 +103,6 @@ const Group_2 = styled.div`
   padding-left: 20px;
 
   ${media.wmd`
-    flex: 4;
     padding-left: unset;
     margin: unset;
     gap: unset;
