@@ -13,7 +13,7 @@ const Section = styled.div`
 `
 const Container = styled.div`
   width: 75vw;
-  height: 90dvh;
+  height: 90%;
   display: flex;
   margin: auto;
   gap: 50px;
