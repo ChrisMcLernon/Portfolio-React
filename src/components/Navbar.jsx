@@ -54,10 +54,6 @@ const A = styled.a`
   };
 
 `
-
-
-
-
 const Navbar = () => {
 
 
