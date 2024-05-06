@@ -44,8 +44,8 @@ const Title = styled.h1`
   gap: 10px;
   justify-content: center;
   font-size: 50px;
+  font-weight: bold;
   color: ${props => props.theme.color4};
-  text-shadow: 2px 2px 10px ${props => props.theme.color1};
 
   ${media.hmd`
     font-size: 30px;

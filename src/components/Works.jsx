@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { media } from "../utils/breakpoints";
 import projects from "../data/Portfolio.json";
 import WorksCard from "./WorksCard";
+import PortfolioTitle from "./PortfolioTitle";
 
 const data = [
   "Web Development",
@@ -83,7 +84,7 @@ const ListItem = styled.li`
   font-size: 80px;
   font-weight: bold;
   cursor: pointer;
-  color: ${props => props.theme.color4};
+  color: ${(props) => props.theme.color4};
   -webkit-text-stroke: 1px ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   white-space: nowrap;
@@ -95,9 +96,9 @@ const ListItem = styled.li`
     top: 0;
     left: 0;
     overflow: hidden;
-    width: 0px;
+    width: 0%;
     color: ${props => props.theme.color2};
-    -webkit-text-stroke: 1px ${props => props.theme.color4};
+    -webkit-text-stroke: 2px ${props => props.theme.color4};
   } 
 
   &:hover{
@@ -140,10 +141,12 @@ const Group_2 = styled.div`
 
 const Works = () => {
   const [state, setState] = useState("");
+  const [activeItem, setActiveItem] = useState(null);
 
-  const itemNoSpaces = state.replace(/ /g, '');
-
-  
+  const handleMouseEnter = (item) => {
+    setState(item);
+    setActiveItem(item);
+  }
 
   const result = projects.filter((project) => project.filter === state);
 
@@ -152,10 +155,8 @@ const Works = () => {
         <Container>
           <Group_1>
             <List>
-              {data.map((item) => (
-                <ListItem key={item} className={itemNoSpaces} text={item} onMouseEnter={() => setState(item)}>
-                  {item}
-                </ListItem>
+              {data.map((item, id) => (
+                <PortfolioTitle key={id} item={item} onMouseEnter={handleMouseEnter} active={activeItem === item}/>
               ))}
             </List>
           </Group_1>
