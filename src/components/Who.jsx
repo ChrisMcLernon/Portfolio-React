@@ -14,7 +14,6 @@ const Section = styled.section`
 const Container = styled.div`
   display: grid;
   flex-direction: row;
-  height: 90%;
   scroll-snap-align: center;
 
   ${media.hmd`
