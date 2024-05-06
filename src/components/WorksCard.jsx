@@ -7,7 +7,7 @@ const Card = styled.div`
   flex-direction: column;
   height: 80%;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   background-color: ${props => props.theme.transparent};
@@ -81,7 +81,8 @@ const A = styled.a`
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   ${media.wmd`
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0px 0px 50px 0px;
   `}
 
   &:hover{
