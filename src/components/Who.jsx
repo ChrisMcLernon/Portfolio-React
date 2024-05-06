@@ -72,12 +72,9 @@ const Desc = styled.p`
   padding: 15px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-
-  ${media.hsm`
-    font-size: 12px;
-  `}
+  
   ${media.wmd`
-    font-size: 13px;
+    font-size: 12px;
     padding: 10px;
     text-align: center;
   `}
