@@ -34,8 +34,8 @@ const Group = styled.div`
   z-index: 1;
 
   ${media.wmd`
-    width: 70%;
-    padding: 10px;
+    width: 50%;
+    padding: 20px;
     flex: 1;
   `}
 `
