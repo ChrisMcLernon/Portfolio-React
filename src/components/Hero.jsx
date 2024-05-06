@@ -43,25 +43,42 @@ const Left = styled.div`
   ${media.wmd`
     bottom: 5%;
   `}
+
+  ${media.wxs`
+    gap: unset;
+    margin: auto;
+  `}
 `
 const Title = styled.h1` 
   font-size: 80px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   position: relative;
+  ${media.wxs`
+    margin : auto;
+    font-size: 32px;
+    padding-top: 150px;
+  `}
 `
 const WhatWeDo = styled.div` 
   display: flex;
   align-items: center;
   gap: 10px;
+  ${media.wxs`
+    gap: unset;
+  `}
 `
 const Sub = styled.h2`
   padding-left: 50px;
-  font-weight: bold;
   font-size: 30px;
   color: ${props => props.theme.color2};
   position: relative;
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
+  ${media.wxs`
+    margin : auto;
+    font-size: 22px;
+    padding-left: unset;
+  `}
 `
 const Desc = styled.p`
   font-size: 24px;
@@ -73,6 +90,12 @@ const Desc = styled.p`
   position: relative;
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   animation: typing 3s steps(39, end), blink-caret .75s step-end infinite;
+
+  ${media.wxs`
+  font-size: 12px;
+    margin: auto;
+    gap: unset;
+  `}
   
 
 @keyframes typing {
@@ -133,6 +156,9 @@ const Anim = styled.div`
   ${media.hmd`
     width: 200px;
     height: 200px;
+  `}
+  ${media.wxs`
+    
   `}
 
 &:before,

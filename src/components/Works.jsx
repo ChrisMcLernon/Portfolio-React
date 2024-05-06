@@ -30,6 +30,12 @@ const Container = styled.div`
   ${media.wlg`
       flex-direction: column;
   `}
+  ${media.wxs`
+    padding-left: unset;
+    margin: unset;
+    gap: unset;
+
+  `}
 `
 const Blur_1 = styled.div`
   position: absolute;
@@ -59,7 +65,6 @@ const Blur_2 = styled.div`
   z-index: 0;
   pointer-events: none;
 `
-
 const Group_1 = styled.div`
   flex: 2;
   justify-content: center;
@@ -72,58 +77,18 @@ const Group_1 = styled.div`
     justify-content: flex-start;
     text-align: left;
   `}
+  ${media.wxs`
+    
+  `}
 `
 const List = styled.ul`
   list-style: none;
   display:flex;
   flex-direction: column;
   gap: 50px;
-`
-
-const ListItem = styled.li`
-  font-size: 80px;
-  font-weight: bold;
-  cursor: pointer;
-  color: ${(props) => props.theme.color4};
-  -webkit-text-stroke: 1px ${props => props.theme.color1};
-  text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  white-space: nowrap;
-  position: relative;
-
-  &:after{
-    content: "${props => props.text}";
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 0%;
-    color: ${props => props.theme.color2};
-    -webkit-text-stroke: 2px ${props => props.theme.color4};
-  } 
-
-  &:hover{
-    &:after{
-      animation: moveText 0.35s linear both;
-
-      @keyframes moveText {
-        to{
-            width: 100%;
-        }
-      }
-    }
-  }
-
-  ${media.hmd`
-    font-size: 60px;
-  `}
-  ${media.wmd`
-    font-size: 60px;
-  `}
-  ${media.hsm`
-    font-size: 40px;
-  `}
-  ${media.wsm`
-    font-size: 40px;
+  ${media.wxs`
+    gap: 15px;
+    padding-top: 35px;
   `}
 `
 const Group_2 = styled.div`
@@ -135,10 +100,15 @@ const Group_2 = styled.div`
   flex-direction: row;
   margin: auto;
   padding-left: 20px;
+
+  ${media.wxs`
+    flex: 4;
+    padding-left: unset;
+    margin: unset;
+    gap: unset;
+
+  `}
 `
-
-
-
 const Works = () => {
   const [state, setState] = useState("Web Development");
   const [activeItem, setActiveItem] = useState("Web Development");

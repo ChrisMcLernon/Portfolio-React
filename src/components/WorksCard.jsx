@@ -24,6 +24,9 @@ const Img = styled.img`
   ${media.hlg`
     padding: 20px;
   `}
+  ${media.wxs`
+    width: 0;
+  `}
 `
 const Title = styled.h3`
   display: flex;
@@ -32,6 +35,9 @@ const Title = styled.h3`
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   text-align: center;
+  ${media.wxs`
+    padding: 0px 10px;
+  `}
 `
 const Desc = styled.p`
   font-size: 14px;
@@ -39,6 +45,12 @@ const Desc = styled.p`
   padding: 0px 40px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
+
+  ${media.wxs`
+    padding: 20px;
+
+  `}
+  
 `
 const CardList = styled.ul`
   display: flex;
@@ -46,11 +58,20 @@ const CardList = styled.ul`
   gap: 20px;
   list-style: none;
   color: ${props => props.theme.color1};
+
+  ${media.wxs`
+    gap: 3px;
+  `}
 `
 const CardListItem = styled.li`
   background-color: ${props => props.theme.color4};
   padding: 10px;
   border-radius: 5px;
+
+  ${media.wxs`
+    font-size: 11px;
+    padding: 5px;
+  `}
 `
 const A = styled.a`
   font-size: 24px;
@@ -59,6 +80,9 @@ const A = styled.a`
   text-decoration: none;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
+  ${media.wxs`
+    font-size: 20px;
+  `}
 
   &:hover{
     color: ${props => props.theme.color2};

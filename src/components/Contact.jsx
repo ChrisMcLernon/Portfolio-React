@@ -49,6 +49,9 @@ const Input = styled.input`
   border: none;
   border-radius: 5px;
   background: ${props => props.theme.transparent};
+  ${media.wxs`
+    width: 55dvw;
+  `}
 `
 const TextArea = styled.textarea`
   color: ${props => props.theme.color4};
@@ -61,6 +64,13 @@ const TextArea = styled.textarea`
   min-width:  90%;
   max-height: 500px;
   min-height: 250px;
+
+  ${media.wxs`
+  max-width: 40dvw;
+  min-width: 55dvw;
+  max-height: 35dvh;
+  min-height: 35dvh;
+  `}
 `
 const Button = styled.button`
   color: ${props => props.theme.color5};

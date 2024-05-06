@@ -36,13 +36,18 @@ const Group = styled.div`
   ${media.hmd`
     height: unset;
   `}
+
+  ${media.wxs`
+    width: 80%;
+    padding: 10px;
+  `}
 `
 
 const Title = styled.h1`
   display: flex;
-  white-space: nowrap;
   gap: 10px;
   justify-content: center;
+  text-align: center;
   font-size: 50px;
   font-weight: bold;
   color: ${props => props.theme.color4};
@@ -56,8 +61,8 @@ const Title = styled.h1`
 `
 const Sub = styled.h2`
   display: flex;
-  white-space: nowrap;
   justify-content: center;
+  text-align: center;
   font-size: 30px;
   color: ${props => props.theme.color2};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
@@ -77,6 +82,11 @@ const Desc = styled.p`
 
   ${media.hsm`
     font-size: 12px;
+  `}
+  ${media.wxs`
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
   `}
 `
 const List = styled.ul`
@@ -116,6 +126,9 @@ const A = styled.a`
 
   ${media.hsm`
     font-size: 12px;
+  `}
+  ${media.wxs`
+    font-size: 15px;
   `}
 `
 const Column_L = styled.div`

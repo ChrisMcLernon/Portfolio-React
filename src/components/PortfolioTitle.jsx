@@ -7,7 +7,6 @@ const ListItem = styled.li`
   font-weight: bold;
   cursor: pointer;
   color: ${props => props.active ? props.theme.color2 : props.theme.color4};
-  -webkit-text-stroke: 2px ${props => props.active ? props.theme.color4 : props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   white-space: nowrap;
   position: relative;
@@ -22,7 +21,7 @@ const ListItem = styled.li`
     font-size: 40px;
   `}
   ${media.wsm`
-    font-size: 40px;
+    font-size: 30px;
   `}
 `
 
