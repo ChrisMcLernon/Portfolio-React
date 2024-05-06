@@ -40,6 +40,7 @@ const Group = styled.div`
   ${media.wmd`
     width: 70%;
     padding: 10px;
+    flex: 1;
   `}
 `
 
