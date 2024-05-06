@@ -7,7 +7,6 @@ import { media } from "../utils/breakpoints";
 const Section = styled.section`
   height: 100vh;
   width: 100dvw;
-  font-size: 18px;
   scroll-snap-align: center;
   z-index: 1;
 `
@@ -23,7 +22,7 @@ const Container = styled.div`
     flex-direction: column;
   `}
   ${media.wmd`
-    height: 80dvh;
+    height: 75dvh;
   `}
 `
 const Group = styled.div`
@@ -42,7 +41,7 @@ const Group = styled.div`
   `}
 
   ${media.wmd`
-    width: 80%;
+    width: 70%;
     padding: 10px;
   `}
 `
