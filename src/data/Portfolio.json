@@ -2,7 +2,7 @@
     {
         "title": "Secure Coding and Threat Managment",
         "imgsrc": "../../public/img/portfolio_1.png",
-        "desc": "Adopting a secure coding standard and integrating security into the development process from the start are crucial in mitigating vulnerabilities and reducing security breaches. This includes following established standards like OWASP Top 10 or CERT Secure Coding Standards, implementing zero trust principles, evaluating risks, and establishing comprehensive security policies, along with conducting employee training and awareness programs to ensure compliance and understanding.",
+        "desc": "A comprehensive guide to building robust software systems, covering C++, Python, and server management while emphasizing cybersecurity principles. Explore the GitHub repository for practical insights into secure coding practices and effective threat mitigation strategies.",
         "skills": ["C++", "Server / PC Managment", "Python", "Cybersecurity"],
         "source": "https://github.com/ChrisMcLernon/CS-405",
         "filter": "Cybersecurity"
@@ -35,7 +35,7 @@
         "title": "AI Treasure Hunt Game",
         "imgsrc": "../../public/img/Portfolio_5.png",
         "desc": "A project developed using Python, Keras, TensorFlow, OpenAI Gym, and deep learning techniques. It showcases the implementation of artificial intelligence in gaming scenarios, demonstrating skills in Python programming, deep learning, and reinforcement learning.",
-        "skills": ["Python", "Keras", "TensorFlow", "OpenAi Gym", "Deep Learning"],
+        "skills": ["Python", "Keras", "TensorFlow", "Deep Learning"],
         "source": "https://github.com/ChrisMcLernon/AI-and-Emerging-Trends/tree/main",
         "filter": "Artificial Intelligence"
     }

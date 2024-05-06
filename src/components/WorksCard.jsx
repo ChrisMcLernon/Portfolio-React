@@ -16,9 +16,10 @@ const Card = styled.div`
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
 `
 const Img = styled.img`
-  height: 50%;
+  height: 60%;
   width: 90%;
   border-radius: 30px;
+  margin: auto;
 
   ${media.hlg`
     padding: 20px;
@@ -48,7 +49,7 @@ const CardList = styled.ul`
 `
 const CardListItem = styled.li`
   background-color: ${props => props.theme.color4};
-  padding: 4px;
+  padding: 10px;
   border-radius: 5px;
 `
 const A = styled.a`
