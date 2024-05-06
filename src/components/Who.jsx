@@ -33,10 +33,6 @@ const Group = styled.div`
   border-radius: 10px;
   z-index: 1;
 
-  ${media.hmd`
-    height: unset;
-  `}
-
   ${media.wmd`
     width: 70%;
     padding: 10px;
@@ -85,7 +81,7 @@ const Desc = styled.p`
     font-size: 12px;
   `}
   ${media.wmd`
-    font-size: 13px;
+    font-size: 10px;
     padding: 2px;
     text-align: center;
   `}
@@ -125,11 +121,8 @@ const A = styled.a`
     color: ${props => props.theme.color2};
   };
 
-  ${media.hsm`
-    font-size: 12px;
-  `}
   ${media.wmd`
-    font-size: 15px;
+    font-size: 12px;
   `}
 `
 const Column_L = styled.div`
