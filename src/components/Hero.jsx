@@ -122,12 +122,15 @@ const Right = styled.div`
   gap: 10px;
   z-index: 1;
 
+  ${media.wlg`
+    top: 20%;
+    left: 0;
+  `}
   ${media.hsm`
     top: 5%;
   `}
   ${media.wmd`
     left: 0;
-    flex: 2;
   `}
 
 `
@@ -151,9 +154,12 @@ const Anim = styled.div`
     width: 300px;
     height: 300px;
   `}
-  ${media.wmd`
+  ${media.hmd`
     width: 200px;
     height: 200px;
+  `}
+  ${media.wmd`
+    top: 20%;
   `}
 
 &:before,
