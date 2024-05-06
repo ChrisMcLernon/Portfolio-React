@@ -14,6 +14,7 @@ const Section = styled.section`
 const Container = styled.div`
   display: grid;
   flex-direction: row;
+  top: 15px;
   height: 100%;
   scroll-snap-align: center;
 
