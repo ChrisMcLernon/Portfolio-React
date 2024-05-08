@@ -37,7 +37,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <Container>
         <Hero/>
-        <Who />
         <Works />
         <Contact />
       </Container>

@@ -67,9 +67,6 @@ const Navbar = () => {
           </Logo>
             <List>
                 <ListItem>
-                  <A href="#about">About</A>
-                </ListItem>
-                <ListItem>
                   <A href="#portfolio">Portfolio</A>
                 </ListItem>
                 <ListItem>
