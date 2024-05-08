@@ -5,7 +5,7 @@ import { media } from '../utils/breakpoints';
 
 
 const Section = styled.div`
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   z-index: 5;
@@ -16,7 +16,7 @@ const Section = styled.div`
 `
 
 const Cotainer = styled.div`
-  width: 300px;
+  width: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -88,8 +88,11 @@ const List = styled.ul`
   flex-direction: column;
   gap: 50px;
   ${media.wmd`
-    gap: 15px;
+    gap: 10px;
     padding-top: 35px;
+  `}
+  ${media.hlg`
+    gap: 10px;
   `}
 `
 const Group_2 = styled.div`
@@ -106,7 +109,8 @@ const Group_2 = styled.div`
     padding-left: unset;
     margin: unset;
     gap: unset;
-
+    gap: 10px;
+    padding-left: unset;
   `}
 `
 const Works = () => {

@@ -14,17 +14,24 @@ const Card = styled.div`
   background-color: ${props => props.theme.transparent};
   border-radius: 30px;
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
+
+  ${media.wmd`
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+  `}
 `
 const Img = styled.img`
-  height: 50%;
-  width: 90%;
+  height: 20dvh;
+  aspect-ratio: 16/9;
   border-radius: 30px;
 
   ${media.hlg`
     padding: 20px;
   `}
   ${media.wmd`
-    width: 0;
+    height: 12dvh;
+    margin-top: 20px;
   `}
 `
 const Title = styled.h3`
@@ -38,6 +45,10 @@ const Title = styled.h3`
   ${media.wmd`
     padding: 0px 10px;
   `}
+  ${media.wxs`
+    font-size: 15px;
+    padding: unset;
+  `}
 `
 const Desc = styled.p`
   font-size: 14px;
@@ -47,8 +58,8 @@ const Desc = styled.p`
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
 
   ${media.wmd`
-    padding: 20px;
-
+    font-size: 0;
+    padding: unset;
   `}
   
 `
@@ -58,10 +69,6 @@ const CardList = styled.ul`
   gap: 10px;
   list-style: none;
   color: ${props => props.theme.color1};
-
-  ${media.wmd`
-    gap: 3px;
-  `}
 `
 const CardListItem = styled.li`
   background-color: ${props => props.theme.color4};
@@ -69,13 +76,18 @@ const CardListItem = styled.li`
   border-radius: 5px;
 
   ${media.wmd`
-    font-size: 11px;
-    padding: 5px;
+    font-size: 0;
+    background-color: unset;
   `}
 `
 const LinkGroup = styled.div`
   display: flex;
   flex-direction: row;
+  gap: 20px;
+
+  ${media.wxs`
+    gap: 20px;
+  `}
 `
 
 const A = styled.a`
@@ -95,7 +107,7 @@ const A = styled.a`
   };
 `
 
-const WorksCard = ({project : {title, imgsrc, desc, skills, source, Demo, DemoLink}}) => {
+const WorksCard = ({project : {title, imgsrc, desc, skills, source, DemoLink}}) => {
   return (
     <Card>
         <Img src={imgsrc} alt={`Image of ${title}`}></Img>
@@ -111,7 +123,7 @@ const WorksCard = ({project : {title, imgsrc, desc, skills, source, Demo, DemoLi
           )}
         </CardList>
         <LinkGroup>
-          <A href={source} target='blank'>Source</A>
+        <ConditionalLink href={source} target='blank'>Source</ConditionalLink>
           <ConditionalLink href={DemoLink} target='blank'>Demo</ConditionalLink>
         </LinkGroup>
     </Card>

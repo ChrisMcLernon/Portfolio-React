@@ -17,7 +17,6 @@ const Container = styled.div`
   justify-content: center;
   display: flex;
   margin: auto;
-  gap: 50px;
 `
 const Group_1 = styled.div`
   margin: auto;
@@ -40,7 +39,10 @@ const Form = styled.form`
   padding: 10px;
   border-radius: 25px;
   background: ${props => props.theme.transparent};
-  box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color4};;
+  box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color4};
+  ${media.wxs`
+    height: 80dvh;
+  `}
 `
 const Input = styled.input`
   color: ${props => props.theme.color4};
@@ -72,6 +74,12 @@ const TextArea = styled.textarea`
     min-width: 55dvw;
     max-height: 40dvh;
     min-height: 40dvh;
+  `}
+  ${media.wxs`
+    max-width: 55dvw;
+    min-width: 55dvw;
+    max-height: 10dvh;
+    min-height: 10dvh;
   `}
 `
 const Button = styled.button`

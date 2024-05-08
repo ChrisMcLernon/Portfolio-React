@@ -8,7 +8,7 @@
         "filter": "Cybersecurity"
     },
     {
-        "title": "Portfolio Website using React + Vite",
+        "title": "Portfolio using React + Vite",
         "imgsrc": "../../img/portfolio_2.png",
         "desc": "A modern web application showcasing a developer's portfolio. Built with React and Vite, it offers smooth navigation, interactivity, and responsiveness across different devices.",
         "skills": ["React", "Vite", "Javascript", "CSS", "HTML"],
@@ -26,7 +26,7 @@
         "filter": "Web Development"
     },
     {
-        "title": "3D Rendering and Texturing using OpenGL",
+        "title": "3D Rendering using OpenGL",
         "imgsrc": "../../img/portfolio_3.png",
         "desc": "A project showcasing rendering and texturing techniques implemented with C++ and OpenGL. It demonstrates skills in 3D rendering and texturing, providing a foundation for understanding graphics programming.",
         "skills": ["C++", "OpenGL", "3D Rendering", "Texturing"],
