@@ -74,7 +74,6 @@ const Group_1 = styled.div`
   z-index: 1;
 
   ${media.hlg`
-    justify-content: flex-start;
     text-align: left;
   `}
   ${media.wmd`

@@ -16,6 +16,7 @@ const ListItem = styled.li`
   `}
   ${media.wmd`
     font-size: 30px;
+    text-align: center;
   `}
   ${media.wxs`
     font-size: 20px;
