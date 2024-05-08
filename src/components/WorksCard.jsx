@@ -16,7 +16,7 @@ const Card = styled.div`
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
 
   ${media.wmd`
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
     margin: auto;
   `}
@@ -30,7 +30,7 @@ const Img = styled.img`
     padding: 20px;
   `}
   ${media.wmd`
-    height: 12dvh;
+    height: 20dvh;
     margin-top: 20px;
   `}
 `
@@ -77,8 +77,6 @@ const CardListItem = styled.li`
   border-radius: 5px;
 
   ${media.wmd`
-    font-size: 0;
-    background-color: unset;
   `}
 `
 const LinkGroup = styled.div`

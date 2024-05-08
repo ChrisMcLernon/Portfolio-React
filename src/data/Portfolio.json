@@ -3,7 +3,7 @@
         "title": "Secure Coding and Threat Managment",
         "imgsrc": "../../img/portfolio_1.png",
         "desc": "A comprehensive guide to building robust software systems, covering C++, Python, and server management while emphasizing cybersecurity principles. Explore the GitHub repository for practical insights into secure coding practices and effective threat mitigation strategies.",
-        "skills": ["C++", "Server / PC Managment", "Python", "Cybersecurity"],
+        "skills": ["C++", "Python", "Cybersecurity"],
         "source": "https://github.com/ChrisMcLernon/CS-405",
         "filter": "Cybersecurity"
     },
@@ -11,7 +11,7 @@
         "title": "Django Storefront",
         "imgsrc": "../../img/portfolio_2.png",
         "desc": "Django Storefront is a sleek e-commerce platform with a sophisticated user interface and robust functionality.",
-        "skills": ["Django", "Python", "HTML", "Tailwind", "SQL"],
+        "skills": ["Django", "Tailwind", "SQL"],
         "source": "https://github.com/ChrisMcLernon/Store-Page",
         "DemoLink": "https://g0ld1e.pythonanywhere.com/",
         "filter": "Web Development"
@@ -20,7 +20,7 @@
         "title": "3D Rendering using OpenGL",
         "imgsrc": "../../img/portfolio_3.png",
         "desc": "A project showcasing rendering and texturing techniques implemented with C++ and OpenGL. It demonstrates skills in 3D rendering and texturing, providing a foundation for understanding graphics programming.",
-        "skills": ["C++", "OpenGL", "3D Rendering", "Texturing"],
+        "skills": ["C++", "OpenGL", "Texturing"],
         "source": "https://github.com/ChrisMcLernon/CS-330-Project-1",
         "filter": "3D Rendering"
     },
@@ -28,7 +28,7 @@
         "title": "System Architecture and Micro-Controllers",
         "imgsrc": "../../img/portfolio_4.png",
         "desc": "A project focused on system architecture and micro-controller development, utilizing skills in C, C++, and TI technologies. It demonstrates expertise in designing and implementing efficient system architectures with micro-controllers",
-        "skills": ["System Architecture", "Micro-Controllers", "C", "C++", "TI"],
+        "skills": ["C", "C++", "TI"],
         "source": "https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers",
         "filter": "System Architecture"
     },
@@ -36,7 +36,7 @@
         "title": "AI Treasure Hunt Game",
         "imgsrc": "../../img/portfolio_5.png",
         "desc": "A project developed using Python, Keras, TensorFlow, OpenAI Gym, and deep learning techniques. It showcases the implementation of artificial intelligence in gaming scenarios, demonstrating skills in Python programming, deep learning, and reinforcement learning.",
-        "skills": ["Python", "Keras", "TensorFlow", "Deep Learning"],
+        "skills": ["Python", "Keras", "TensorFlow"],
         "source": "https://github.com/ChrisMcLernon/AI-and-Emerging-Trends/tree/main",
         "filter": "Artificial Intelligence"
     }
