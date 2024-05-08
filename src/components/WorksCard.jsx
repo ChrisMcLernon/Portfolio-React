@@ -42,6 +42,7 @@ const Title = styled.h3`
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   text-align: center;
   padding: 0px 20px 10px 10px;
+  
   ${media.wmd`
     padding: 0px 10px;
   `}

@@ -8,15 +8,6 @@
         "filter": "Cybersecurity"
     },
     {
-        "title": "Portfolio using React + Vite",
-        "imgsrc": "../../img/portfolio_2.png",
-        "desc": "A modern web application showcasing a developer's portfolio. Built with React and Vite, it offers smooth navigation, interactivity, and responsiveness across different devices.",
-        "skills": ["React", "Vite", "Javascript", "CSS", "HTML"],
-        "source": "https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio",
-        "DemoLink": "https://chrismclernonportfolio.netlify.app/",
-        "filter": "Web Development"
-    },
-    {
         "title": "Django Storefront",
         "imgsrc": "../../img/portfolio_2.png",
         "desc": "Django Storefront is a sleek e-commerce platform with a sophisticated user interface and robust functionality.",
