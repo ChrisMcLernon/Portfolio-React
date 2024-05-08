@@ -5,6 +5,7 @@
         "desc": "A comprehensive guide to building robust software systems, covering C++, Python, and server management while emphasizing cybersecurity principles. Explore the GitHub repository for practical insights into secure coding practices and effective threat mitigation strategies.",
         "skills": ["C++", "Server / PC Managment", "Python", "Cybersecurity"],
         "source": "https://github.com/ChrisMcLernon/CS-405",
+        "Demo": false,
         "filter": "Cybersecurity"
     },
     {
@@ -13,6 +14,8 @@
         "desc": "A modern web application showcasing a developer's portfolio. Built with React and Vite, it offers smooth navigation, interactivity, and responsiveness across different devices.",
         "skills": ["React", "Vite", "Javascript", "CSS", "HTML"],
         "source": "https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio",
+        "Demo": true,
+        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
         "filter": "Web Development"
     },
     {
@@ -21,6 +24,7 @@
         "desc": "A project showcasing rendering and texturing techniques implemented with C++ and OpenGL. It demonstrates skills in 3D rendering and texturing, providing a foundation for understanding graphics programming.",
         "skills": ["C++", "OpenGL", "3D Rendering", "Texturing"],
         "source": "https://github.com/ChrisMcLernon/CS-330-Project-1",
+        "Demo": false,
         "filter": "3D Rendering"
     },
     {
@@ -29,6 +33,7 @@
         "desc": "A project focused on system architecture and micro-controller development, utilizing skills in C, C++, and TI technologies. It demonstrates expertise in designing and implementing efficient system architectures with micro-controllers",
         "skills": ["System Architecture", "Micro-Controllers", "C", "C++", "TI"],
         "source": "https://github.com/ChrisMcLernon/System-Architecture-and-Micro-Controllers",
+        "Demo": false,
         "filter": "System Architecture"
     },
     {
@@ -37,6 +42,7 @@
         "desc": "A project developed using Python, Keras, TensorFlow, OpenAI Gym, and deep learning techniques. It showcases the implementation of artificial intelligence in gaming scenarios, demonstrating skills in Python programming, deep learning, and reinforcement learning.",
         "skills": ["Python", "Keras", "TensorFlow", "Deep Learning"],
         "source": "https://github.com/ChrisMcLernon/AI-and-Emerging-Trends/tree/main",
+        "Demo": false,
         "filter": "Artificial Intelligence"
     }
 ]

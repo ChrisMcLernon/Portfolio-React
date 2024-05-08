@@ -89,7 +89,7 @@ const A = styled.a`
   };
 `
 
-const WorksCard = ({project : {title, imgsrc, desc, skills, source}}) => {
+const WorksCard = ({project : {title, imgsrc, desc, skills, source, Demo, DemoLink}}) => {
   return (
     <Card>
         <Img src={imgsrc} alt={`Image of ${title}`}></Img>
@@ -105,6 +105,7 @@ const WorksCard = ({project : {title, imgsrc, desc, skills, source}}) => {
           )}
         </CardList>
         <A href={source} target='blank'>Source</A>
+        <A href={DemoLink} target='blank'>{DemoLink}</A>
     </Card>
   )
 }
