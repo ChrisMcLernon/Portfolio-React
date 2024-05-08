@@ -12,7 +12,7 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${props => props.theme.transparent};
-  border-radius: 30px;
+  border-radius: 50px;
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color5};
 
   ${media.wmd`
@@ -26,10 +26,7 @@ const Img = styled.img`
   aspect-ratio: 16/9;
   border-radius: 30px;
 
-  ${media.hlg`
-    padding: 20px;
-  `}
-  ${media.wmd`
+  ${media.wlg`
     height: 20dvh;
     margin-top: 20px;
   `}
