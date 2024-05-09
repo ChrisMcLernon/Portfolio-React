@@ -20,6 +20,8 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   z-index: 1;
+  padding: 30px 20px;
+  margin: auto;
 `
 
 const Container = styled.div`
@@ -29,7 +31,7 @@ const Container = styled.div`
   flex-direction: row;
   gap: 50px;
 
-  ${media.wlg`
+  ${media.wmd`
       flex-direction: column;
   `}
 `

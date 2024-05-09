@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { media } from '../utils/breakpoints'
 
 const ListItem = styled.li`
-  font-size: 50px;
+  font-size: 5dvw;
   font-weight: bold;
   cursor: pointer;
   color: ${props => props.active ? props.theme.color2 : props.theme.color4};

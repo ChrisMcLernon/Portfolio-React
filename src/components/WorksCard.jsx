@@ -4,8 +4,8 @@ import { media } from '../utils/breakpoints'
 import ConditionalLink from './ConditionalLink'
 
 const Card = styled.div`
-  max-height: 50dvh;
-  max-width: 50dvw;
+  max-height: 45dvh;
+  max-width: 70dvw;
   margin: auto;
   display: flex;
   flex-direction: column;
