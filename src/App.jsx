@@ -15,7 +15,7 @@ const theme = {
 
 const Container = styled.div`
   height: 100dvh;
-  width: 100dvw;
+  margin-inline: auto;
   scroll-behavior: smooth;
   scroll-snap-align: center;
   scroll-snap-type: y mandatory;
@@ -23,7 +23,7 @@ const Container = styled.div`
   overflow-x: hidden;
   scrollbar-width: none;
   background-color: ${props => props.theme.color3};
-  background-size: 100dvw 100dvh;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   &::-webkit-scrollbar{
     display: none;
