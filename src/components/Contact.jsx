@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 
 
 const Section = styled.div`
-  min-height: 100vh;
+  min-height: 100dvh;
   min-width: 100dvw;
   scroll-snap-align: center;
   z-index: 1;
