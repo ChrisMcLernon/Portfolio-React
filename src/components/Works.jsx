@@ -74,7 +74,7 @@ const List = styled.ul`
   list-style: none;
   display:flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 `
 const Group_2 = styled.div`
   display: grid;
