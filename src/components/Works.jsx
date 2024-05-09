@@ -14,8 +14,8 @@ const data = [
 ];
 
 const Section = styled.div`
-  min-height: 100dvh;
-  min-width: 100dvw;
+  height: 100dvh;
+  min-width: auto;
   padding: 2dvb;
   scroll-snap-align: center;
   display: flex;

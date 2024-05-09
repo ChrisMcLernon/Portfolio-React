@@ -13,8 +13,8 @@ const theme = {
 };
 
 const Container = styled.div`
-  height: 100vh;
-  min-width: 100%;
+  height: 100dvh;
+  min-width: auto;
   margin-inline: auto;
   scroll-behavior: smooth;
   scroll-snap-align: center;
