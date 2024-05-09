@@ -17,7 +17,7 @@ const Container = styled.div`
   width: auto;
   margin-inline: auto;
   scroll-behavior: smooth;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   scrollbar-width: none;
   background-color: ${props => props.theme.color3};
