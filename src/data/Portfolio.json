@@ -1,7 +1,7 @@
 [
     {
-        "title": "Secure Coding and Threat Managment",
-        "imgsrc": "../../img/portfolio_1.png",
+        "title": "Secure Coding",
+        "imgsrc": "../../img/portfolio_4.jpg",
         "desc": "A comprehensive guide to building robust software systems, covering C++, Python, and server management while emphasizing cybersecurity principles.",
         "skills": ["C++", "Python", "Cybersecurity"],
         "source": "https://github.com/ChrisMcLernon/CS-405",
@@ -25,7 +25,7 @@
         "filter": "3D Rendering"
     },
     {
-        "title": "System Architecture and Micro-Controllers",
+        "title": "Thermostat Project",
         "imgsrc": "../../img/portfolio_4.png",
         "desc": "A project focused on system architecture and micro-controller development. It demonstrates expertise in designing and implementing efficient system architectures.",
         "skills": ["C", "C++", "TI"],

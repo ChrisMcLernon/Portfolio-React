@@ -31,7 +31,7 @@ const Container = styled.div`
   flex-direction: row;
   gap: 10px;
 
-  ${media.wlg`
+  ${media.wsm`
       flex-direction: column;
   `}
 `
@@ -78,9 +78,9 @@ const List = styled.ul`
 `
 const Group_2 = styled.div`
   display: grid;
-  gap: 1rem;
   grid-template-columns:
-    repeat(autofit, minmax(250px, 1fr));
+    repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
   z-index: 1;
   margin: auto;
 `

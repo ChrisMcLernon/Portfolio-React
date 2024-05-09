@@ -4,8 +4,6 @@ import { media } from '../utils/breakpoints'
 import ConditionalLink from './ConditionalLink'
 
 const Card = styled.div`
-  min-height: 40dvh;
-  max-width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -23,6 +21,7 @@ const Container = styled.div`
 const Img = styled.img`
   width: 100%;
   height: 100%;
+  aspect-ratio: 16/6;
   object-fit: cover;
   border-radius: 30px 30px 0px 0px;
 
@@ -40,7 +39,7 @@ const Desc = styled.p`
   text-align: center;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  padding-inline: 10px;
+  padding-inline: 10vb;
 
   ${media.wmd`
     font-size: 0;
@@ -50,6 +49,8 @@ const Desc = styled.p`
 const CardList = styled.ul`
   display: flex;
   align-items:center;
+  justify-content: center;
+  margin: auto;
   gap: 10px;
   list-style: none;
   color: ${props => props.theme.color1};
@@ -61,21 +62,11 @@ const CardListItem = styled.li`
 `
 const LinkGroup = styled.div`
   display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: auto;
   flex-direction: row;
   gap: 20px;
-`
-
-const A = styled.a`
-  font-size: 24px;
-  padding: 0px 50px 10px 0px;
-  cursor: pointer;
-  text-decoration: none;
-  color: ${props => props.theme.color1};
-  text-shadow: 2px 2px 10px ${props => props.theme.color4};
-
-  &:hover{
-    color: ${props => props.theme.color2};
-  };
 `
 
 const WorksCard = ({project : {title, imgsrc, desc, skills, source, DemoLink}}) => {
@@ -96,7 +87,7 @@ const WorksCard = ({project : {title, imgsrc, desc, skills, source, DemoLink}}) 
           )}
         </CardList>
         <LinkGroup>
-        <ConditionalLink href={source} target='blank'>Source</ConditionalLink>
+          <ConditionalLink href={source} target='blank'>Source</ConditionalLink>
           <ConditionalLink href={DemoLink} target='blank'>Demo</ConditionalLink>
         </LinkGroup>
     </Card>

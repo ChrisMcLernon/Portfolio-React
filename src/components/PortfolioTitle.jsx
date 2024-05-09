@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ListItem = styled.li`
-  font-size: 5dvw;
+  font-size: 5dvb;
   font-weight: bold;
   cursor: pointer;
   margin: auto;
@@ -19,7 +19,7 @@ const PortfolioTitle = ({item, onMouseEnter, active}) => {
     };
 
   return (
-    <ListItem text={item} onMouseEnter={handleMouseEnter} active={active}>
+    <ListItem text={item} onMouseEnter={handleMouseEnter} active={active} >
         {item}
     </ListItem>
   )

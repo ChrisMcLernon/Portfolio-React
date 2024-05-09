@@ -2,7 +2,7 @@ import { css } from 'styled-components'
 
 const device = {
   wxs: '400px',
-  wsm: '600px',
+  wsm: '500px',
   wmd: '900px',
   wlg: '1280px',
   wxl: '1440px',
