@@ -9,10 +9,6 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   z-index: 5;
-
-  ${media.wmd`
-    position: absolute;
-  `}
 `
 
 const Cotainer = styled.div`

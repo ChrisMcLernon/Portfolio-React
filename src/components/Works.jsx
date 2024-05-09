@@ -15,12 +15,12 @@ const data = [
 
 const Section = styled.div`
   min-height: 100dvh;
-  max-width: 100dvw;
+  max-width: 100dvw; 
+  padding: 2dvb;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
   z-index: 1;
-  padding: 30px 20px;
   margin: auto;
 `
 
@@ -31,14 +31,14 @@ const Container = styled.div`
   flex-direction: row;
   gap: 50px;
 
-  ${media.wmd`
+  ${media.wlg`
       flex-direction: column;
   `}
 `
 const Blur_1 = styled.div`
   position: absolute;
-  width: 50vw;
-  height: 50vh;
+  width: 50dvw;
+  height: 50dvh;
   min-width: 350px;
   min-height: 350px;
   top: -128px;
@@ -68,6 +68,7 @@ const Group_1 = styled.div`
   display: flex;
   align-items: center;
   z-index: 1;
+  margin: auto;
 `
 const List = styled.ul`
   list-style: none;
@@ -76,10 +77,11 @@ const List = styled.ul`
   gap: 30px;
 `
 const Group_2 = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns:
+    repeat(autofit, minmax(250px, 1fr));
   z-index: 1;
-  flex-direction: row;
   margin: auto;
 
 `

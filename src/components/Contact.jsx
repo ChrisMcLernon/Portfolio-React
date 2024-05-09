@@ -8,17 +8,17 @@ import { media } from "../utils/breakpoints";
 const Section = styled.div`
   min-height: 100dvh;
   max-width: 100dvw;
+  padding: 2dvb;
   scroll-snap-align: center;
   z-index: 1;
 `
 const Container = styled.div`
   justify-content: center;
-  padding-top: 10%;
-  display: flex;
+  padding: 7rem;
   margin: auto;
 `
 const Group_1 = styled.div`
-  margin: auto;
+  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,8 +33,7 @@ const Title = styled.h1`
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  padding: 10px;
+  gap: 15px;
   border-radius: 25px;
   background: ${props => props.theme.transparent};
   box-shadow: 9px 8px 12.5px 2.5px ${props => props.theme.color4};
