@@ -4,8 +4,8 @@ import Navbar from "./Navbar";
 import { media } from "../utils/breakpoints";
 
 const Section = styled.div`
-  height: 100dvh;
-  width: 100dvw;
+  min-height: 100dvh;
+  max-width: 100dvw;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -15,15 +15,11 @@ const Section = styled.div`
 `
 
 const Container = styled.div`
-  height: 90%;
-  width: 100vh;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
+  gap: 3em;
 
   ${media.wlg`
     flex-direction: column-reverse;
@@ -37,49 +33,27 @@ const Left = styled.div`
   justify-content: center;
   gap: 20px;
   z-index: 1;
-
-  ${media.wlg`
-    bottom: 10%;
-  `}
-  ${media.wmd`
-    bottom: 5%;
-  `}
-
-  ${media.wmd`
-    gap: unset;
-    margin: auto;
-  `}
 `
-const Title = styled.h1` 
+const Title = styled.h1`
+  text-align: center;
   font-size: 80px;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   position: relative;
+
   ${media.wmd`
-    margin : auto;
-    font-size: 32px;
-    padding-top: 150px;
+    font-size: 50px;
   `}
 `
-const WhatWeDo = styled.div` 
+const WhatWeDo = styled.div`
   display: flex;
-  align-items: center;
-  gap: 10px;
-  ${media.wmd`
-    gap: unset;
-  `}
 `
 const Sub = styled.h2`
-  padding-left: 50px;
+  margin: auto;
   font-size: 30px;
   color: ${props => props.theme.color2};
   position: relative;
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  ${media.wmd`
-    margin : auto;
-    font-size: 22px;
-    padding-left: unset;
-  `}
 `
 const Desc = styled.p`
   font-size: 24px;
@@ -87,15 +61,13 @@ const Desc = styled.p`
   overflow: hidden;
   border-right: .15em solid ${props => props.theme.color2};
   white-space: nowrap;
-  letter-spacing: .15em;
+  letter-spacing: .25em;
   position: relative;
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
   animation: typing 3s steps(39, end), blink-caret .75s step-end infinite;
 
   ${media.wmd`
-  font-size: 12px;
-    margin: auto;
-    gap: unset;
+    font-size: 12px;
   `}
   
 
@@ -115,24 +87,10 @@ const Desc = styled.p`
 };
 `
 const Right = styled.div`
-  flex: 3;
+  flex: 2;
   position: relative;
   margin: auto;
-  left: 10%;
-  gap: 10px;
   z-index: 1;
-
-  ${media.wlg`
-    top: 20%;
-    left: 0;
-  `}
-  ${media.hsm`
-    top: 5%;
-  `}
-  ${media.wmd`
-    left: 0;
-  `}
-
 `
 const Anim = styled.div`
   position: relative;
@@ -141,26 +99,13 @@ const Anim = styled.div`
   left: 0;
   right: 0;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   display: grid;
   border: 20px solid #0000;
   border-radius: 50%;
   border-right-color: ${props => props.theme.color4};
   animation: spinner-a4dj62 5.4s infinite linear;
-
-
-  ${media.hlg`
-    width: 300px;
-    height: 300px;
-  `}
-  ${media.hmd`
-    width: 200px;
-    height: 200px;
-  `}
-  ${media.wmd`
-    top: 20%;
-  `}
 
 &:before,
 &:after {
