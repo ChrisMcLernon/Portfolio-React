@@ -17,21 +17,12 @@
         "filter": "Web Development"
     },
     {
-        "title": "Per-Chance Mock Storefront",
-        "imgsrc": "../../img/portfolio_2.png",
-        "desc": "A sleek e-commerce platform with a sophisticated user interface and robust functionality.",
-        "skills": ["Django", "Tailwind", "SQL"],
-        "source": "https://github.com/ChrisMcLernon/Store-Page",
-        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
-        "filter": "Web Development"
-    },
-    {
-        "title": "Per-Chance Mock Storefront",
-        "imgsrc": "../../img/portfolio_2.png",
-        "desc": "A sleek e-commerce platform with a sophisticated user interface and robust functionality.",
-        "skills": ["Django", "Tailwind", "SQL"],
-        "source": "https://github.com/ChrisMcLernon/Store-Page",
-        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
+        "title": "Portfolio Website",
+        "imgsrc": "../../img/portfolio_4.png",
+        "desc": "A simple yet detailed portfolio showcasing multiple software developers projects.",
+        "skills": ["React", "CSS", "HTML"],
+        "source": "https://github.com/ChrisMcLernon/Portfolio-React/tree/Portfolio",
+        "DemoLink": "https://chrismclernonportfolio.netlify.app/",
         "filter": "Web Development"
     },
     {
