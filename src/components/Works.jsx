@@ -14,8 +14,8 @@ const data = [
 ];
 
 const Section = styled.div`
-  min-height: 100dvh;
-  max-width: 100dvw; 
+  height: 100vh;
+  min-width: 100%;
   padding: 2dvb;
   scroll-snap-align: center;
   display: flex;
@@ -29,7 +29,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  gap: 50px;
+  gap: 10px;
 
   ${media.wlg`
       flex-direction: column;
@@ -78,12 +78,11 @@ const List = styled.ul`
 `
 const Group_2 = styled.div`
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   grid-template-columns:
     repeat(autofit, minmax(250px, 1fr));
   z-index: 1;
   margin: auto;
-
 `
 const Works = () => {
   const [state, setState] = useState("Web Development");

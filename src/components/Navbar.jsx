@@ -1,7 +1,6 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { HiOutlineDesktopComputer  } from "react-icons/hi";
-import { media } from '../utils/breakpoints';
 
 
 const Section = styled.div`
@@ -9,6 +8,7 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   z-index: 5;
+  margin: auto;
 `
 
 const Cotainer = styled.div`

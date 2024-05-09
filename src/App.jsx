@@ -2,7 +2,6 @@ import styled, { ThemeProvider } from "styled-components"
 import Contact from "./components/Contact"
 import Hero from "./components/Hero"
 import Works from "./components/Works"
-import { media } from "./utils/breakpoints"
 
 const theme = {
   color1: "#FFFFFF",
@@ -14,7 +13,8 @@ const theme = {
 };
 
 const Container = styled.div`
-  height: 100dvh;
+  height: 100vh;
+  min-width: 100%;
   margin-inline: auto;
   scroll-behavior: smooth;
   scroll-snap-align: center;

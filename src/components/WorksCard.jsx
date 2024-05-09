@@ -4,6 +4,7 @@ import { media } from '../utils/breakpoints'
 import ConditionalLink from './ConditionalLink'
 
 const Card = styled.div`
+  min-height: 40dvh;
   max-width: 80%;
   margin: auto;
   display: flex;
@@ -39,7 +40,7 @@ const Desc = styled.p`
   text-align: center;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  padding: 0px 10px;
+  padding-inline: 10px;
 
   ${media.wmd`
     font-size: 0;

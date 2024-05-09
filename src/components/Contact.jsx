@@ -1,24 +1,19 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from '@emailjs/browser';
-import { media } from "../utils/breakpoints";
 
 
 
 const Section = styled.div`
-  min-height: 100dvh;
-  max-width: 100dvw;
-  padding: 2dvb;
+  height: 100vh;
+  min-width: 100%;
   scroll-snap-align: center;
   z-index: 1;
 `
 const Container = styled.div`
-  justify-content: center;
-  padding: 7rem;
-  margin: auto;
+  padding-top: 10dvh;
 `
 const Group_1 = styled.div`
-  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +35,6 @@ const Form = styled.form`
 `
 const Input = styled.input`
   color: ${props => props.theme.color4};
-  margin: auto;
   padding: 20px;
   border: none;
   border-radius: 5px;
@@ -63,6 +57,7 @@ const TextArea = styled.textarea`
 const Button = styled.button`
   color: ${props => props.theme.color5};
   margin: auto;
+  margin-bottom: 20px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

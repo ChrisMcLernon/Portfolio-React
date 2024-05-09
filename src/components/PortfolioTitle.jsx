@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { media } from '../utils/breakpoints'
 
 const ListItem = styled.li`
   font-size: 5dvw;

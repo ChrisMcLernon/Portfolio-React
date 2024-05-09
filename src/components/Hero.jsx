@@ -4,8 +4,9 @@ import Navbar from "./Navbar";
 import { media } from "../utils/breakpoints";
 
 const Section = styled.div`
-  min-height: 100dvh;
-  max-width: 100dvw;
+  height: 100vh;
+  min-width: 100%;
+  margin: auto;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
