@@ -14,8 +14,8 @@ const data = [
 ];
 
 const Section = styled.div`
-  height: 100dvh;
-  width: 100dvw;
+  min-height: 100dvh;
+  max-width: 100dvw;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
@@ -23,19 +23,14 @@ const Section = styled.div`
 `
 
 const Container = styled.div`
-  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  gap: 50px;
 
   ${media.wlg`
       flex-direction: column;
-  `}
-  ${media.wmd`
-    padding-left: unset;
-    margin: unset;
-    gap: unset;
-
   `}
 `
 const Blur_1 = styled.div`
@@ -67,50 +62,24 @@ const Blur_2 = styled.div`
   pointer-events: none;
 `
 const Group_1 = styled.div`
-  flex: 3;
   justify-content: center;
   display: flex;
   align-items: center;
   z-index: 1;
-
-  ${media.hlg`
-    text-align: left;
-  `}
-  ${media.wmd`
-    top: 5px;
-    flex: 1
-  `}
 `
 const List = styled.ul`
   list-style: none;
   display:flex;
   flex-direction: column;
-  gap: 50px;
-  ${media.wmd`
-    gap: 10px;
-    padding-top: 35px;
-  `}
-  ${media.hlg`
-    gap: 10px;
-  `}
+  gap: 30px;
 `
 const Group_2 = styled.div`
-  flex: 3;
   display: flex;
-  gap: 20px;
-  align-items: center;
+  flex-wrap: wrap;
   z-index: 1;
   flex-direction: row;
   margin: auto;
-  padding-left: 20px;
 
-  ${media.wmd`
-    padding-left: unset;
-    margin: unset;
-    gap: unset;
-    gap: 10px;
-    padding-left: unset;
-  `}
 `
 const Works = () => {
   const [state, setState] = useState("Web Development");
@@ -134,13 +103,13 @@ const Works = () => {
             </List>
           </Group_1>
           <Group_2>
-          {result.length > 0 ? (
-            result.map((project, id) => (
-              <WorksCard key={id} project={project} />
-            ))
-          ) : (
-            <></>
-          )}
+            {result.length > 0 ? (
+              result.map((project, id) => (
+                <WorksCard key={id} project={project} />
+              ))
+            ) : (
+              <></>
+            )}
           </Group_2>
           <Blur_1 />
           <Blur_2 />

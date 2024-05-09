@@ -16,7 +16,7 @@ const Section = styled.div`
 `
 
 const Cotainer = styled.div`
-  width: 250px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
