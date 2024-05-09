@@ -31,7 +31,7 @@ const Container = styled.div`
   flex-direction: row;
   gap: 10px;
 
-  ${media.wmd`
+  ${media.wlg`
       flex-direction: column;
   `}
 `
