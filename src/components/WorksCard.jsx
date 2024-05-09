@@ -39,6 +39,7 @@ const Desc = styled.p`
   text-align: center;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
+  white-space: nowrap;
   padding-inline: 10vb;
 
   ${media.wmd`
