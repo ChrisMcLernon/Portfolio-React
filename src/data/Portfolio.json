@@ -17,6 +17,24 @@
         "filter": "Web Development"
     },
     {
+        "title": "Per-Chance Mock Storefront",
+        "imgsrc": "../../img/portfolio_2.png",
+        "desc": "A sleek e-commerce platform with a sophisticated user interface and robust functionality.",
+        "skills": ["Django", "Tailwind", "SQL"],
+        "source": "https://github.com/ChrisMcLernon/Store-Page",
+        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
+        "filter": "Web Development"
+    },
+    {
+        "title": "Per-Chance Mock Storefront",
+        "imgsrc": "../../img/portfolio_2.png",
+        "desc": "A sleek e-commerce platform with a sophisticated user interface and robust functionality.",
+        "skills": ["Django", "Tailwind", "SQL"],
+        "source": "https://github.com/ChrisMcLernon/Store-Page",
+        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
+        "filter": "Web Development"
+    },
+    {
         "title": "3D Rendered Scene",
         "imgsrc": "../../img/portfolio_3.png",
         "desc": "A project showcasing rendering and texturing techniques. Showcasing an ability to code graphical engines as well as model 3d assets.",
