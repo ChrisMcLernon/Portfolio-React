@@ -4,7 +4,7 @@ import { HiOutlineDesktopComputer  } from "react-icons/hi";
 
 
 const Section = styled.div`
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   z-index: 5;

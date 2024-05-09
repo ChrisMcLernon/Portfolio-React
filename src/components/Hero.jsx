@@ -4,8 +4,8 @@ import Navbar from "./Navbar";
 import { media } from "../utils/breakpoints";
 
 const Section = styled.div`
-  height: 100dvh;
-  min-width: auto;
+  min-height: 80dvh;
+  width: auto;
   margin: auto;
   scroll-snap-align: center;
   display: flex;
@@ -135,7 +135,6 @@ const Anim = styled.div`
 const Hero = () => {
     return (
         <Section>
-          <Navbar />
           <Container>
               <Left>
                 <Title>Chris McLernon</Title>

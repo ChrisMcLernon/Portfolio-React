@@ -2,16 +2,12 @@ import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from '@emailjs/browser';
 
-
-
 const Section = styled.div`
-  height: 100dvh;
-  min-width: auto;
-  scroll-snap-align: center;
+  min-height: 80dvh;
+  width: auto;
   z-index: 1;
 `
 const Container = styled.div`
-  padding-top: 10dvh;
 `
 const Group_1 = styled.div`
   display: flex;

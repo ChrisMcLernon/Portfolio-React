@@ -8,7 +8,7 @@ const device = {
   wxl: '1440px',
   wxxl: '1920px',
   hxs: '400px',
-  hsm: '600px',
+  hsm: '750px',
   hmd: '900px',
   hlg: '1280px',
   hxl: '1440px',

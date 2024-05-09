@@ -14,9 +14,9 @@ const data = [
 ];
 
 const Section = styled.div`
-  height: 100dvh;
-  min-width: auto;
-  padding: 2dvb;
+  min-height: 80dvh;
+  width: auto;
+  padding: 3dvb;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ const Container = styled.div`
   flex-direction: row;
   gap: 10px;
 
-  ${media.wsm`
+  ${media.wmd`
       flex-direction: column;
   `}
 `
@@ -79,7 +79,7 @@ const List = styled.ul`
 const Group_2 = styled.div`
   display: grid;
   grid-template-columns:
-    repeat(auto-fit, minmax(250px, 1fr));
+    repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   z-index: 1;
   margin: auto;

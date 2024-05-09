@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { media } from '../utils/breakpoints'
 import ConditionalLink from './ConditionalLink'
+import { media } from '../utils/breakpoints'
 
 const Card = styled.div`
+  height: 50dvh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -20,8 +21,7 @@ const Container = styled.div`
 
 const Img = styled.img`
   width: 100%;
-  height: 100%;
-  aspect-ratio: 16/6;
+  aspect-ratio: 19/6;
   object-fit: cover;
   border-radius: 30px 30px 0px 0px;
 
@@ -39,13 +39,11 @@ const Desc = styled.p`
   text-align: center;
   color: ${props => props.theme.color1};
   text-shadow: 2px 2px 10px ${props => props.theme.color4};
-  white-space: nowrap;
   padding-inline: 10vb;
-
-  ${media.wmd`
-    font-size: 0;
-  `}
   
+ ${media.hsm`
+    font-size: 0;
+ `} 
 `
 const CardList = styled.ul`
   display: flex;
