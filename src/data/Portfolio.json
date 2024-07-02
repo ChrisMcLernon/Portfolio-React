@@ -8,12 +8,11 @@
         "filter": "Cybersecurity"
     },
     {
-        "title": "Per-Chance Mock Storefront",
+        "title": "Media Player in WPF",
         "imgsrc": "../../img/portfolio_2.png",
-        "desc": "A sleek e-commerce platform with a sophisticated user interface and robust functionality.",
-        "skills": ["Django", "Tailwind", "SQL"],
-        "source": "https://github.com/ChrisMcLernon/Store-Page",
-        "DemoLink": "https://g0ld1e.pythonanywhere.com/",
+        "desc": "A simple and easy-to-use media player built using Windows Presentation Foundation (WPF). This project aims to provide a lightweight and efficient media player with basic playback functionalities.",
+        "skills": [".NET 8", "C#", "WPF"],
+        "source": "https://github.com/ChrisMcLernon/MediaPlayer-WPF",
         "filter": "Web Development"
     },
     {
